@@ -18,7 +18,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -36,7 +38,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -61,6 +65,20 @@
 					"id" : "lecture02exercises::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lecture02exercises-Debug-9e9c719b67505e5f1849.json",
 					"name" : "lecture02exercises",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lecture03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lecture03-Debug-0fc4b3c5e3500e2096ac.json",
+					"name" : "lecture03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lecture03exercises::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lecture03exercises-Debug-a26e4f33bfa0316611e6.json",
+					"name" : "lecture03exercises",
 					"projectIndex" : 0
 				},
 				{

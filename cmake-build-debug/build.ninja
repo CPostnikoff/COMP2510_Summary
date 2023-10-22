@@ -172,6 +172,72 @@ build lecture02exercises.exe: C_EXECUTABLE_LINKER__lecture02exercises_Debug CMak
   TARGET_IMPLIB = liblecture02exercises.dll.a
   TARGET_PDB = lecture02exercises.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lecture03
+
+
+#############################################
+# Order-only phony target for lecture03
+
+build cmake_object_order_depends_target_lecture03: phony || CMakeFiles/lecture03.dir
+
+build CMakeFiles/lecture03.dir/Lecture_03/lecture03.c.obj: C_COMPILER__lecture03_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_03/lecture03.c || cmake_object_order_depends_target_lecture03
+  DEP_FILE = CMakeFiles\lecture03.dir\Lecture_03\lecture03.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lecture03.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture03.dir\Lecture_03
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lecture03
+
+
+#############################################
+# Link the executable lecture03.exe
+
+build lecture03.exe: C_EXECUTABLE_LINKER__lecture03_Debug CMakeFiles/lecture03.dir/Lecture_03/lecture03.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lecture03.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lecture03.exe
+  TARGET_IMPLIB = liblecture03.dll.a
+  TARGET_PDB = lecture03.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lecture03exercises
+
+
+#############################################
+# Order-only phony target for lecture03exercises
+
+build cmake_object_order_depends_target_lecture03exercises: phony || CMakeFiles/lecture03exercises.dir
+
+build CMakeFiles/lecture03exercises.dir/Lecture_03/lecture03exercises.c.obj: C_COMPILER__lecture03exercises_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_03/lecture03exercises.c || cmake_object_order_depends_target_lecture03exercises
+  DEP_FILE = CMakeFiles\lecture03exercises.dir\Lecture_03\lecture03exercises.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lecture03exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture03exercises.dir\Lecture_03
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lecture03exercises
+
+
+#############################################
+# Link the executable lecture03exercises.exe
+
+build lecture03exercises.exe: C_EXECUTABLE_LINKER__lecture03exercises_Debug CMakeFiles/lecture03exercises.dir/Lecture_03/lecture03exercises.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lecture03exercises.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lecture03exercises.exe
+  TARGET_IMPLIB = liblecture03exercises.dll.a
+  TARGET_PDB = lecture03exercises.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -204,6 +270,10 @@ build lecture02: phony lecture02.exe
 
 build lecture02exercises: phony lecture02exercises.exe
 
+build lecture03: phony lecture03.exe
+
+build lecture03exercises: phony lecture03exercises.exe
+
 build midtermTesting: phony midtermTesting.exe
 
 # =============================================================================
@@ -214,7 +284,7 @@ build midtermTesting: phony midtermTesting.exe
 #############################################
 # Folder: D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug
 
-build all: phony midtermTesting.exe lecture01.exe lecture02.exe lecture02exercises.exe
+build all: phony midtermTesting.exe lecture01.exe lecture02.exe lecture02exercises.exe lecture03.exe lecture03exercises.exe
 
 # =============================================================================
 # Built-in targets
