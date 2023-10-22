@@ -82,11 +82,11 @@ build midtermTesting.exe: C_EXECUTABLE_LINKER__midtermTesting_Debug CMakeFiles/m
 
 build cmake_object_order_depends_target_lecture01: phony || CMakeFiles/lecture01.dir
 
-build CMakeFiles/lecture01.dir/lecture01.c.obj: C_COMPILER__lecture01_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/lecture01.c || cmake_object_order_depends_target_lecture01
-  DEP_FILE = CMakeFiles\lecture01.dir\lecture01.c.obj.d
+build CMakeFiles/lecture01.dir/Lecture_01/lecture01.c.obj: C_COMPILER__lecture01_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_01/lecture01.c || cmake_object_order_depends_target_lecture01
+  DEP_FILE = CMakeFiles\lecture01.dir\Lecture_01\lecture01.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lecture01.dir
-  OBJECT_FILE_DIR = CMakeFiles\lecture01.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture01.dir\Lecture_01
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/lecture01.dir/lecture01.c.obj: C_COMPILER__lecture01_unscanned_
 #############################################
 # Link the executable lecture01.exe
 
-build lecture01.exe: C_EXECUTABLE_LINKER__lecture01_Debug CMakeFiles/lecture01.dir/lecture01.c.obj
+build lecture01.exe: C_EXECUTABLE_LINKER__lecture01_Debug CMakeFiles/lecture01.dir/Lecture_01/lecture01.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lecture01.dir
@@ -115,11 +115,11 @@ build lecture01.exe: C_EXECUTABLE_LINKER__lecture01_Debug CMakeFiles/lecture01.d
 
 build cmake_object_order_depends_target_lecture02: phony || CMakeFiles/lecture02.dir
 
-build CMakeFiles/lecture02.dir/lecture02.c.obj: C_COMPILER__lecture02_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/lecture02.c || cmake_object_order_depends_target_lecture02
-  DEP_FILE = CMakeFiles\lecture02.dir\lecture02.c.obj.d
+build CMakeFiles/lecture02.dir/Lecture_02/lecture02.c.obj: C_COMPILER__lecture02_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_02/lecture02.c || cmake_object_order_depends_target_lecture02
+  DEP_FILE = CMakeFiles\lecture02.dir\Lecture_02\lecture02.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lecture02.dir
-  OBJECT_FILE_DIR = CMakeFiles\lecture02.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture02.dir\Lecture_02
 
 
 # =============================================================================
@@ -129,7 +129,7 @@ build CMakeFiles/lecture02.dir/lecture02.c.obj: C_COMPILER__lecture02_unscanned_
 #############################################
 # Link the executable lecture02.exe
 
-build lecture02.exe: C_EXECUTABLE_LINKER__lecture02_Debug CMakeFiles/lecture02.dir/lecture02.c.obj
+build lecture02.exe: C_EXECUTABLE_LINKER__lecture02_Debug CMakeFiles/lecture02.dir/Lecture_02/lecture02.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lecture02.dir

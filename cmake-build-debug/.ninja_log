@@ -2,6 +2,11 @@
 5	59	7196313964087351	CMakeFiles/midtermTesting.dir/main.c.obj	d0be05268585f464
 53	123	7196364397034271	midtermTesting.exe	9c642398180083a1
 2	52	7196364396356996	CMakeFiles/midtermTesting.dir/filetesting.c.obj	a50f0f76c4b9a32b
+0	56	7196380895412625	CMakeFiles/lecture01.dir/Lecture_01/lecture01.c.obj	5d89e692f0c72d1c
 2	45	7196365332228090	CMakeFiles/midtermTesting.dir/lecture01Problems/lecture01.c.obj	29b839d5f5d076f2
+1	104	7196381299352053	build.ninja	8368f14a440e5663
 0	59	7196375476870007	CMakeFiles/lecture01.dir/lecture01.c.obj	2cd3b273f1c7c8ad
-59	128	7196375477533013	lecture01.exe	49f9c3fb5d524e68
+57	126	7196380896089492	lecture01.exe	4319d3ab6de34f17
+0	103	7196381299352053	build.ninja	8368f14a440e5663
+0	44	7196381300259569	CMakeFiles/lecture02.dir/Lecture_02/lecture02.c.obj	a8ca5267d73e1cd2
+44	112	7196381300908282	lecture02.exe	c68779122be6300b
