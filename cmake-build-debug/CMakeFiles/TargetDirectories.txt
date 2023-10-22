@@ -4,5 +4,8 @@ D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-buil
 D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/lecture02exercises.dir
 D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/lecture03.dir
 D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/lecture03exercises.dir
+D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/lecture04.dir
+D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/lecture04flawedcode.dir
+D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/lecture04exercises.dir
 D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

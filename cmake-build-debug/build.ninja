@@ -238,6 +238,105 @@ build lecture03exercises.exe: C_EXECUTABLE_LINKER__lecture03exercises_Debug CMak
   TARGET_IMPLIB = liblecture03exercises.dll.a
   TARGET_PDB = lecture03exercises.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lecture04
+
+
+#############################################
+# Order-only phony target for lecture04
+
+build cmake_object_order_depends_target_lecture04: phony || CMakeFiles/lecture04.dir
+
+build CMakeFiles/lecture04.dir/Lecture_04/lecture04.c.obj: C_COMPILER__lecture04_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_04/lecture04.c || cmake_object_order_depends_target_lecture04
+  DEP_FILE = CMakeFiles\lecture04.dir\Lecture_04\lecture04.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lecture04.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture04.dir\Lecture_04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lecture04
+
+
+#############################################
+# Link the executable lecture04.exe
+
+build lecture04.exe: C_EXECUTABLE_LINKER__lecture04_Debug CMakeFiles/lecture04.dir/Lecture_04/lecture04.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lecture04.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lecture04.exe
+  TARGET_IMPLIB = liblecture04.dll.a
+  TARGET_PDB = lecture04.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lecture04flawedcode
+
+
+#############################################
+# Order-only phony target for lecture04flawedcode
+
+build cmake_object_order_depends_target_lecture04flawedcode: phony || CMakeFiles/lecture04flawedcode.dir
+
+build CMakeFiles/lecture04flawedcode.dir/Lecture_04/lecture04flawedcode.c.obj: C_COMPILER__lecture04flawedcode_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_04/lecture04flawedcode.c || cmake_object_order_depends_target_lecture04flawedcode
+  DEP_FILE = CMakeFiles\lecture04flawedcode.dir\Lecture_04\lecture04flawedcode.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lecture04flawedcode.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture04flawedcode.dir\Lecture_04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lecture04flawedcode
+
+
+#############################################
+# Link the executable lecture04flawedcode.exe
+
+build lecture04flawedcode.exe: C_EXECUTABLE_LINKER__lecture04flawedcode_Debug CMakeFiles/lecture04flawedcode.dir/Lecture_04/lecture04flawedcode.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lecture04flawedcode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lecture04flawedcode.exe
+  TARGET_IMPLIB = liblecture04flawedcode.dll.a
+  TARGET_PDB = lecture04flawedcode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lecture04exercises
+
+
+#############################################
+# Order-only phony target for lecture04exercises
+
+build cmake_object_order_depends_target_lecture04exercises: phony || CMakeFiles/lecture04exercises.dir
+
+build CMakeFiles/lecture04exercises.dir/Lecture_04/lecture04exercises.c.obj: C_COMPILER__lecture04exercises_unscanned_Debug D$:/0003$ School/BCIT/Term$ 2/Procedural$ Programming$ in$ C/midtermTesting/Lecture_04/lecture04exercises.c || cmake_object_order_depends_target_lecture04exercises
+  DEP_FILE = CMakeFiles\lecture04exercises.dir\Lecture_04\lecture04exercises.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lecture04exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture04exercises.dir\Lecture_04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lecture04exercises
+
+
+#############################################
+# Link the executable lecture04exercises.exe
+
+build lecture04exercises.exe: C_EXECUTABLE_LINKER__lecture04exercises_Debug CMakeFiles/lecture04exercises.dir/Lecture_04/lecture04exercises.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lecture04exercises.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lecture04exercises.exe
+  TARGET_IMPLIB = liblecture04exercises.dll.a
+  TARGET_PDB = lecture04exercises.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -274,6 +373,12 @@ build lecture03: phony lecture03.exe
 
 build lecture03exercises: phony lecture03exercises.exe
 
+build lecture04: phony lecture04.exe
+
+build lecture04exercises: phony lecture04exercises.exe
+
+build lecture04flawedcode: phony lecture04flawedcode.exe
+
 build midtermTesting: phony midtermTesting.exe
 
 # =============================================================================
@@ -284,7 +389,7 @@ build midtermTesting: phony midtermTesting.exe
 #############################################
 # Folder: D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug
 
-build all: phony midtermTesting.exe lecture01.exe lecture02.exe lecture02exercises.exe lecture03.exe lecture03exercises.exe
+build all: phony midtermTesting.exe lecture01.exe lecture02.exe lecture02exercises.exe lecture03.exe lecture03exercises.exe lecture04.exe lecture04flawedcode.exe lecture04exercises.exe
 
 # =============================================================================
 # Built-in targets
