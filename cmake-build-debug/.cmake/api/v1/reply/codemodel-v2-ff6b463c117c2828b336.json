@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "midtermTesting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lecture01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lecture01-Debug-fc8f3badd8dac6b8fdd4.json",
+					"name" : "lecture01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lecture02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lecture02-Debug-a8987d070299a558d228.json",
+					"name" : "lecture02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "midtermTesting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-midtermTesting-Debug-c5278980e67e09adc33b.json",
+					"name" : "midtermTesting",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting/cmake-build-debug",
+		"source" : "D:/0003 School/BCIT/Term 2/Procedural Programming in C/midtermTesting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
